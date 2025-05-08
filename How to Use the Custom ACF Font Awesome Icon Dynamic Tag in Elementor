@@ -1,0 +1,23 @@
+How to Use the Custom ACF Font Awesome Icon Dynamic Tag in Elementor
+Save the files
+Place both files (plugin.php and class-acf-fontawesome-icon-tag.php) in a folder inside your /wp-content/plugins/ directory.
+For example, create a folder named:
+elementor-acf-fontawesome-icon
+
+Activate the plugin
+Go to your WordPress admin panel → Plugins, find the plugin named:
+“Elementor Dynamic Tag – ACF Font Awesome Icon”, and click Activate.
+
+Add the ACF field
+Make sure you have an ACF field of type “Font Awesome Icon Picker” created in your Field Group.
+Set the Return Format to “Icon Class”.
+Use a field name like: custom_icon
+
+Use in Elementor
+Open the Elementor editor, add a Text or Icon widget.
+
+Click the dynamic tags icon (⚙️) next to the field.
+
+Choose “ACF Font Awesome Icon” from the dynamic tag list.
+
+Enter the ACF field name you used (e.g., custom_icon) in the settings.
